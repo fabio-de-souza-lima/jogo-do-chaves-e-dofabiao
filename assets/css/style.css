@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Peralta&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Peralta';
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(to bottom, #5cb1f6, #ffffff);
+    min-height: 100vh;
+}
+
+main {
+    margin-top: 2%;
+}
+
+.lateral-esquerda {
+    float: left;
+    padding: 1vw 5vw 0 5vw;
+    width: 40%;
+}
+
+.titulo {
+    color: white;
+    font-size: 3vw;
+    text-shadow: .1em .1em #33333391
+}
+
+.subtitulo {
+    color: white;
+    font-size: 2vw;
+    text-shadow: .1em .1em #33333391
+}
+
+.mongo-drongo {
+    margin: 0 auto;
+    width: 80%;
+}
+
+span {
+    align-items: center;
+    color: rgb(243, 235, 235);
+    font-size: 2vw;
+    text-shadow: .1em .1em #33333391;
+}
+
+@media (max-width: 500px) {
+
+    .lateral-esquerda {
+        float: unset;
+        text-align: center;
+        width: auto;
+        margin-bottom: 3vw;
+    }
+
+    .titulo {
+        font-size: 5.5vw;
+    }
+
+    .subtitulo {
+        font-size: 3.5vw;
+    }
+
+    .mongo-drongo {
+        display: none;
+    }
+}
